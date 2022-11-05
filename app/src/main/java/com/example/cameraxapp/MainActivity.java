@@ -49,11 +49,15 @@ public class MainActivity extends AppCompatActivity {
         setupStorageDir();
     }
 
+
+
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
         if(cameraxFragment!=null){
             manager.putFragment(outState,"cameraxFragment",cameraxFragment);
+
+            String ten = "KhoanUBUBUB";
         }
     }
 
