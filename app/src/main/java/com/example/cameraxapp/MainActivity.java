@@ -56,17 +56,6 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         if(cameraxFragment!=null){
             manager.putFragment(outState,"cameraxFragment",cameraxFragment);
-
-            String ten = "KhoanUBUBUB";
-            String ten3 = "KhoanUBUBUB";
-            String tena = "KhoanUBUBUB";
-            String tenâ = "KhoanUBUBUB";
-            String tean = "KhoanUBUBUB";
-            String teana = "KhoanUBUBUB";
-            String taen = "KhoanUBUBUB";
-            String teaan = "KhoanUBUBUB";
-
-
         }
     }
 
